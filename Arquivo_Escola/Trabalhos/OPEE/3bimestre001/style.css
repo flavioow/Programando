@@ -1,0 +1,280 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --cor1: #CCCCCC;
+    --cor2: #999999;
+    --cor3: #666666;
+    --cor4: #333333;
+    --cor5: #000000;
+    --azul1: #037F8C;
+    --azul2: #025159;
+    --azul3: #012326;
+
+    --cursivo: "Caveat", Arial, Helvetica, Verdana, Sans-Serif;
+    --padrão: "Jost", Arial, Helvetica, Verdana, Sans-Serif;
+    --semicursivo: "MuseoModerno", Arial, Helvetica, Verdana, Sans-Serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 1.2em;
+}
+
+strong {
+    color: white;
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-family: var(--semicursivo);
+}
+
+ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+h2 {
+    font-size: 0.9em;
+}
+
+body {
+    background-color: var(--cor1);
+}
+
+header {
+    background-color: var(--cor5);
+    color: white;
+    padding: 24px 0px;
+    font-family: var(--semicursivo);
+    height: 80px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    cursor: default;
+}
+
+header h1 {
+    text-align: center;
+    cursor: default;
+}
+
+nav {
+    background-color: var(--cor5);
+    padding: 8px 8px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a {
+    text-decoration: none;
+    margin: auto;
+    color: white;
+    font-family: var(--padrão);
+    padding: 2px 16px;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+nav a:hover {
+    background-color: var(--azul1);
+    color: var(--azul3);
+    padding: 16px 16px;
+    border-radius: 4px;
+    transition: 0.4s;
+    font-weight: bold;
+}
+
+main {
+    background-color: white;
+    font-family: var(--padrão);
+    text-align: justify;
+    max-width: 1000px;
+    margin: auto;
+    padding: 12px 24px;
+    border-radius: 0px 0px 8px 8px;
+}
+main article {
+    background-color: var(--azul1);
+    color: white;
+    padding: 12px 24px;
+    margin: -12px -24px 12px -24px;
+}
+main > article h1 {
+    text-align: center;
+}
+.produtos {
+    margin: 24px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.produtos img {
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+}
+.produtos a {
+    text-decoration: none;
+    color: var(--cor4);
+    font-weight: 1em;
+}
+#um, #dois, #tres, #quatro, #cinco, #seis, #sete, #oito, #nove {
+    transition: .3s;
+    margin: 24px;
+}
+#um:hover, #dois:hover, #tres:hover, #quatro:hover, #cinco:hover, #seis:hover, #sete:hover, #oito:hover, #nove:hover {
+    background-color: var(--azul1);
+    padding: 12px 12px 4px 12px;
+    border-radius: 4px;
+    color: white;
+    transition: .3s;
+    margin: 24px;
+    cursor: pointer;
+}
+
+aside {
+    background-color: var(--azul1);
+    color: white;
+    padding: 12px 24px;
+    margin: -12px -24px 0px -24px;
+    text-align: center;
+}
+
+aside h1 {
+    text-align: center;
+}
+
+aside p {
+    text-align: center;
+    cursor: pointer;
+    padding: 12px;
+    transition: .3s;
+    border-radius: 4px;
+    margin: 0px 350px;
+}
+
+aside p:hover {
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--azul2);
+    padding: 12px;
+    transition: .3s;
+    border-radius: 8px;
+    margin: 0px 350px;
+}
+
+.ap {
+    margin: 24px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: 0.7em;
+}
+
+.ap img {
+    width: 150px;
+    height: 120px;
+    border-radius: 40%;
+}
+
+.ap a {
+    cursor: default;
+    text-decoration: none;
+    color: var(--cor4);
+}
+
+.ap h2 {
+    font-weight: 0.7em;
+}
+
+.ap h2:hover {
+    text-decoration: underline;
+    color: var(--azul1);
+}
+
+footer {
+    background-color: var(--cor4);
+    font-family: var(--semicursivo);
+    color: white;
+    margin-top: 24px;
+    padding: 24px;
+    text-align: center;
+    font-weight: lighter;
+    cursor: default;
+}
+
+.footer {
+    background-color: #ffffff00;
+    margin: 0px 4px;
+    font-weight: normal;
+}
+
+.roupa {
+    text-align: center;
+    color: var(--azul1);
+    font-family: var(--padrão);
+}
+
+.roupa-p {
+    text-align: center;
+    font-family: var(--padrão);
+}
+
+.loja {
+    margin: 24px 512px 24px 24px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.loja img {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+}
+.loja a {
+    text-decoration: none;
+    color: var(--cor4);
+    font-weight: 1em;
+}
+
+#loja-um {
+    margin: 24px;
+}
+
+#loja-um .carrinho {
+    margin: 0px 0px 0px 126px;
+}
+
+#loja-um .carrinho .botao {
+    background-color: var(--azul1);
+    padding: 24px 48px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    transition: .3s;
+}
+
+#loja-um .carrinho .botao:hover {
+    background-color: var(--azul2);
+    transition: .3s;
+    text-decoration: underline;
+}
+
+#uma, #doisa, #tresa, #quatroa, #cincoa, #seisa, #setea, #oitoa, #novea {
+    transition: .3s;
+    margin: 24px;
+}
+#uma:hover, #doisa:hover, #tresa:hover, #quatroa:hover, #cincoa:hover, #seisa:hover, #setea:hover, #oitoa:hover, #novea:hover {
+    background-color: var(--azul1);
+    padding: 8px 8px 2px 8px;
+    border-radius: 4px;
+    color: white;
+    transition: .3s;
+    margin: 24px;
+    cursor: pointer;
+}

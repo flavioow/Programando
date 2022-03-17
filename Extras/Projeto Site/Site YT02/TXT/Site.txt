@@ -1,0 +1,177 @@
+[Nav Bar]
+-----------------------------------------------------------------------------------------------------
+Icone - Canva
+Botão - Entrar
+Botão - Registrar-se
+-----------------------------------------------------------------------------------------------------
+
+
+[Header]
+-----------------------------------------------------------------------------------------------------
+H1 - Canva. Design para todos.
+P - Crie designs e templates personalizados com uma equipe.
+    Compartilhe designs em qualquer lugar e obtenha impressões
+    profissionais a qualquer momento.
+Botão - Experimente o Canva Pro grátis por 30 dias
+Botão - Registre-se no Canva Grátis
+Imagem - Ao lado dos textos e botões
+-----------------------------------------------------------------------------------------------------
+
+
+[Div.Planos]
+-----------------------------------------------------------------------------------------------------
+H1 - Traga sua equipe ao Canva Pro
+(Div.PlanoGratis)
+    H2 - Canva Grátis
+    H1 - Sempre será grátis
+    P - ✅ Mais de 250.000 templates gratuitos
+    <br>
+    P - ✅ Mais de 100 tipos de design (posts para redes sociais,
+        apresentações, cartas e muito mais)
+    <br>
+    P - ✅ Centenas de milhares de fotos e elementos gráficos grátis
+    <br>
+    P - ✅ Convide membros para a sua equipe
+    <br>
+    P - ✅ Colabore e comente em tempo real
+    <br>
+    P - ✅ 5 GB de armazenamento na nuvem
+    Botão - Comece a criar
+(Div.PlanoPago)
+    H2 - 👑 Pro
+    P - Cobrança mensal
+    Botão - Branco e Roxo
+    P - Cobrança anual
+    P - Quantas pessoas existem na sua equipe?
+    Div.Pessoas
+    H1 - R$ 34,9
+    H2 - R$ 34,90 por mês
+    P - ✅ Tudo o que o plano Grátis oferece, mais:
+    <br>
+    P - ✅ Mais de 75 milhões de fotos profissionais,
+        vídeos, faixas de áudio e elementos gráficos premium
+    <br>
+    P - ✅ Mais de 420.000 templates gratuitos com novos designs diariamente
+    <br>
+    P - ✅ Crie um Kit de Marca e faça upload das suas próprias fontes e logotipos
+    <br>
+    P - ✅ Remova fundos com apenas um clique com o Removedor de Fundo
+    <br>
+    P - ✅ Redimensione seus designs quantas vezes quiser com o Formato Automágico
+    <br>
+    P - ✅ Salve designs como templates para uso da sua equipe
+    <br>
+    P - ✅ 100 GB de armazenamento na nuvem
+    <br>
+    P - ✅ Agende a publicação de conteúdo em até 8 plataformas de redes sociais
+    Botão - Experimente grátis por 30 dias
+-----------------------------------------------------------------------------------------------------
+
+
+[Main]
+-----------------------------------------------------------------------------------------------------
+(Div#templateUm)
+    H1 - Economize tempo
+    P - Redimensione seus designs para qualquer plataforma com o recurso Formato
+        Automágico e agende todos os seus posts com o Planejador de Conteúdo.
+(Div#templateDois)
+    H1 - Seu branding nas suas mãos
+    P - Garanta a unidade visual da sua marca guardando os logotipos, cores e
+        fontes no seu Kit de Marca.
+(Div#templateTres)
+    H1 - Transmita profissionalismo
+    P - Transforme o seu design em uma animação, remova fundos e até mesmo torne
+        as imagens transparentes com as nossas ferramentas de um só clique do
+        Canva Pro.
+(Div#templateQuatro)
+    H1 - Colaboração fácil e fluida
+    P - Convide membros da sua equipe para criar com você. Trabalhe simultaneamente
+        em um único design ou crie templates para serem usados.
+(Div#templateCinco)
+    H1 - Descubra possibilidades infinitas
+    P - Aproveite o acesso a mais de 75 milhões de imagens e vídeos premium, além de
+        milhares de templates premium
+(Div#templateSeis)
+    H1 - Dê vida às suas ideias
+    P - Imprima os seus designs de forma profissional, em cores vibrantes de alta
+        qualidade e papel sustentável. Ainda entregamos tudo diretamente na sua casa.
+-----------------------------------------------------------------------------------------------------
+
+
+[Div.Extra]
+-----------------------------------------------------------------------------------------------------
+H1 - Uma ferramenta lucrativa que poupa tempo e muda vidas
+P - Você não precisa ter experiência em design para fazer criações incríveis. Eleve o
+    nível da produtividade com as nossas ferramentas de alta qualidade.
+(Div#imgUm)
+    Img - Apenas um icone verde
+    H1 - Templates personalizados de alta qualidade
+    P - Mais de 420.000 templates de alta qualidade: todos com designs profissionais
+        e totalmente personalizáveis.
+(Div#imgDois)
+    Img - Apenas um icone azul-petroleo
+    H1 - Formato Automágico
+    P - Ajuste instantaneamente o seu design para qualquer tamanho personalizado que
+        você precisa usar.
+(Div#imgTres)
+    Img - Apenas um icone azul
+    H1 - Removedor de Fundo
+    P - Remova o fundo das fotos facilmente e com apenas um clique.
+(Div#imgQuatro)
+    Img - Apenas um icone rosa
+    H1 - Animator Pro
+    P - Transforme qualquer design em uma animação e salve-o como um arquivo GIF ou MOV.
+(Div#imgCinco)
+    Img - Apenas um icone marrom
+    H1 - Fontes de alta qualidade
+    P - Escolha entre mais de 3.000 fontes de alta qualidade ou faça upload da sua preferida.
+(Div#imgSeis)
+    Img - Apenas um icone roxo
+    H1 - Crie uma quantidade ilimitada de pastas
+    P - Organize seu espaço de trabalho com pastas ilimitadas e 100 GB de armazenamento.
+-----------------------------------------------------------------------------------------------------
+
+
+[Div.SobreNos]
+-----------------------------------------------------------------------------------------------------
+H3 - O QUE DIZEM SOBRE CANVA
+P - O Canva Pro é demais! A gente está sempre usando a ferramenta na Austrália e na Nova
+    Zelândia para colocar nossa criatividade em ação e criar peças profissionais e de
+    acordo com a estética da marca. É fácil e simples de usar, perfeito para pessoas que,
+    assim como eu, não são designers!
+Img - Depoimento 2
+Img - Depoimento 1
+Img - Depoimento 3
+H2 - Alex Dawson
+P - Gerente de Marketing
+-----------------------------------------------------------------------------------------------------
+
+
+[Div.Perguntas]
+-----------------------------------------------------------------------------------------------------
+H1 - Perguntas frequentes
+(Div#perguntaUm)
+    H1 - Posso usar o Canva Pro como pessoa física?
+(Div#perguntaDois)
+    H1 - O Canva Print está disponível em âmbito internacional?
+(Div#perguntaTres)
+    H1 - Posso convidar outros membros da equipe durante meu período de teste?
+(Div#perguntaQuatro)
+    H1 - Existe alguma oferta especial para organizações sem fins lucrativos?
+(Div#perguntaCinco)
+    H1 - Existe alguma oferta especial para estudantes ou professores?
+(Div#perguntaSeis)
+    H1 - Quanto tenho que pagar para usar o Canva Pro?
+(Div#perguntaSete)
+    H1 - Qual é a duração do teste gratuito do Canva?
+(Div#perguntaOito)
+    H1 - Quando adiciono membros à minha equipe, eles podem ver todos os meus designs?
+-----------------------------------------------------------------------------------------------------
+
+
+[Footer]
+-----------------------------------------------------------------------------------------------------
+Img - Usado por 1, 2, 3, 4, 5, 6, 7 e 8
+Botão - Experimente o Canva Pro grátis por 30 dias
+P - Termos e privacidade      ©2021. All Rights Reserved. Canva®
+-----------------------------------------------------------------------------------------------------

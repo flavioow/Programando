@@ -1,0 +1,346 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --cor1: #CCCCCC;
+    --cor2: #999999;
+    --cor3: #666666;
+    --cor4: #333333;
+    --cor5: #000000;
+
+    --cursivo: "Caveat", Arial, Helvetica, Verdana, Sans-Serif;
+    --padrão: "Jost", Arial, Helvetica, Verdana, Sans-Serif;
+    --semicursivo: "MuseoModerno", Arial, Helvetica, Verdana, Sans-Serif;
+    --sans: Arial, Helvetica, Sans-Serif;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--sans);
+}
+
+img {
+    max-width: 200px;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--cor1);
+}
+
+/*   LOGIN   */
+
+.pos {
+    display: block;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    background-image: linear-gradient(-90deg,#43b1ff00,#e0e0e0 15%,#e0e0e0 85%,#43b1ff00);
+    height: 100vh;
+}
+
+.pre {
+    display: block;
+    margin: auto;
+    padding: 50px 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #ffffff7e;
+    height: 500px;
+    width: 600px;
+    margin: auto;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(13px);
+    filter: blur(0px);
+    border-radius: 8px;
+}
+
+.ld1 {
+    width: 299px;
+    padding: 40px 10px 40px 0px;
+    text-align: center;
+}
+
+.ld2 {
+    width: 299px;
+    padding: 40px 10px 40px 0px;
+    margin: 0px auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.divisao {
+    width: 2px;
+    height: 480px;
+    background-color: #00000023;
+    padding: 10px 0px;
+    border-radius: 2px;
+}
+
+.ld1 > .local {
+    margin: auto;
+    font-size: .9em;
+}
+
+.ld1 h1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.ld1 > .local p {
+    font-size: 1em;
+}
+
+#especial {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    margin: 0px -50px;
+}
+
+#al, #re {
+    margin: auto 5px;
+}
+
+.local > img {
+    margin: 0px;
+}
+
+.label {
+    display: block;
+    margin: 40px auto;
+    font-size: .9em;
+    text-align: center;
+}
+
+.label h2 {
+    font-weight: lighter;
+}
+
+.label > .labellabel > input {
+    height: 20px;
+    width: 180px;
+    outline: none;
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 4px;
+    padding: 5px 5px 5px 10px;
+    box-shadow: inset 0px 0px 5px #00000050;
+}
+
+.label a {
+    height: 40px;
+    width: 180px;
+    text-decoration: none
+}
+
+.label a input {
+    height: 40px;
+    width: 180px;
+    padding: 5px 5px 5px 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px #00000050;
+    border: none;
+    cursor: pointer;
+}
+
+#labellabel {
+    margin: 5px auto 25px auto;
+}
+
+#em_c {
+    background-color: #404A61;
+    color: white;
+}
+
+#em_b {
+    background-color: #D9534F;
+    color: white;
+    height: 30px;
+    width: 180px;
+}
+
+.a {
+    margin: 10px 0px 0px 0px;
+}
+
+#a {
+    color: #404A61;
+}
+
+#z {
+    color: #D9534F;
+}
+
+/*   Index   */
+
+.body {
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 80vh;
+    font-family: var(--semicursivo);
+    font-weight: 600;
+    font-style: 16px;
+}
+
+header {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    padding: 30px 70px;
+    background-attachment: fixed;
+    background-color: var(--cor5);
+    background-image: url();
+
+}
+
+.nav-area {
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-area li {
+    display: inline-block;
+    padding: 0px 15px;
+    text-transform: uppercase;
+    transition: .3s;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.nav-area li:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: 3px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    transition: .3s;
+}
+
+.nav-area li a {
+    transition: .3s;
+    color: white;
+    font-family: var(--semicursivo);
+    text-decoration: none;
+}
+
+.nav-area li a:hover {
+    transition: .7s;
+    color: var(--cor1);
+    text-shadow: 0px 0px 8px var(--cor1);
+}
+
+.btn-area {
+    cursor: pointer;
+    color: white;
+    font-style: 16px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 8px;
+    background: var(--cor5);
+    transition: .5s;
+    font-family: var(--semicursivo);
+    text-decoration: none;
+}
+
+.btn-area:hover {
+    background: var(--cor1);
+    box-shadow: 0px 0px 48px var(--cor1);
+    transition: .7s;
+    border-radius: 16px;
+    color: black;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.escolher {
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    background-image: linear-gradient(-90deg,#43b1ff00,#e0e0e0 15%,#e0e0e0 85%,#43b1ff00);
+}
+
+.lin01, .lin02, .lin03 {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+}
+
+.lin01 {
+    padding: 98px 0px 0px 0px;
+}
+
+.lin03 {
+    padding: 0px 0px 98px 0px;
+}
+
+.btn-lin {
+    margin: 5px;
+    height: 100px;
+    width: 165px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff60;
+    border-radius: 4px;
+    padding: 5px;
+    transition: .3s;
+}
+
+.btn-lin:hover {
+    background-color: #ffffffad;
+    box-shadow: 0px 0px 12px #00000023;
+    transition: .5s;
+    margin: 0px 10px;
+}
+
+.btn-lin a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    font-weight: normal;
+    background-color: var(--cor5);
+    color: white;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+footer h3 {
+    padding: 0px 0px 10px 0px;
+}

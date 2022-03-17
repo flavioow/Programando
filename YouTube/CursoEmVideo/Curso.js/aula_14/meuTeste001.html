@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu teste cabuloso</title>
+    <style>
+        body {
+            background-color: purple;
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: white;
+            font: normal 40pt Arial;
+        }
+        div#div1 {
+            background-color: white;
+            color: mediumpurple;
+            font: normal 10pt arial;
+            width: 300px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+        }
+    </style>
+    <div id="div1">
+        Hey man!
+    </div>
+</head>
+<body>
+    <h1>Testeee</h1>
+    <p>Iguinore completamente, por favor!</p>
+    <script>
+        var a1 = window.document.getElementById("div1")
+        a1.addEventListener("click", clicar) // Use isto para substituir os comandos na div
+        a1.addEventListener("mouseenter", entrar) // Use isto para substituir os comandos na div
+        a1.addEventListener("mouseout", sair) // Use isto para substituir os comandos na div
+        function clicar() {
+            a1.innerText = "Nossa! realmente me notou! :)"
+            a1.style.color = "mediumpurple"
+            a1.style.background = "white"
+            a1.style.width = "300px"
+            a1.style.height = "50px"
+            a1.style.lineHeight = "50px"
+            a1.style.textAlign = "center"
+
+        }
+        function entrar() {
+            a1.innerText = "Hmm, me notou?"
+            a1.style.color = "white"
+            a1.style.background = "mediumpurple"
+            a1.style.width = "300px"
+            a1.style.height = "50px"
+            a1.style.lineHeight = "50px"
+            a1.style.textAlign = "center"
+        }
+        function sair() {
+            a1.innerText = "Hey man"
+            a1.style.color = "mediumpurple"
+            a1.style.background = "white"
+            a1.style.width = "300px"
+            a1.style.height = "50px"
+            a1.style.lineHeight = "50px"
+            a1.style.textAlign = "center"
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --padrao: 'Baloo Bhai', Arial, Helvetica, Sans-Serif, Serif;
+    --desenhado: 'Permanent Maker', Arial, Helvetica, Sans-Serif, Serif;
+    --espacado: 'Noto Sans Mono', Arial, Helvetica, Sans-Serif, Serif;
+    --serifado: 'Roboto Slab', Arial, Helvetica, Sans-Serif, Serif;
+
+    --azul1: #0a2879;
+    --azul2: #0a398f;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--padrao);
+}
+
+body {
+    background-color: #f2f2f2;
+    min-height: 100vh;
+}
+
+header {
+    background-color: white;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 5px 20px #00000025;
+}
+
+header .container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--azul2);
+}
+
+header a:hover {
+    color: var(--azul1);
+}
+
+#header a {
+    margin: 0px 2px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: .4s;
+}
+
+#header a:hover {
+    background-color: #f2f2f2c2;
+    color: var(--azul1);
+    transition: .4s;
+}
+
+#header a:active {
+    background-color: var(--azul1);
+    box-shadow: 0px 0px 0px 4px #00000025;
+    color: white;
+    transition: .4s;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar Que Muda de Cor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Logo</a>
+        <ul>
+            <li><a href="index.html">Casa</a></li>
+            <li><a href="index.html">Sobre</a></li>
+            <li><a href="index.html">Serviços</a></li>
+            <li><a href="index.html">Portifólio</a></li>
+            <li><a href="index.html">Time</a></li>
+            <li><a href="index.html">Contato</a></li>
+        </ul>
+    </header>
+
+    <section class="banner"></section>
+
+    <aside>
+        <div class="content">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo commodi incidunt provident exercitationem ex minima veritatis! Consequatur vero omnis dolores reiciendis illo tempora voluptatem quidem suscipit ullam unde, fugiat saepe nisi, accusamus optio! Aut doloremque, explicabo, maiores veritatis dignissimos quam ipsam excepturi aliquid eum libero reprehenderit alias odio repellendus laboriosam vero illo quos asperiores eaque nihil quasi consectetur voluptas molestias impedit voluptatum. Voluptates, sunt molestias quo porro alias blanditiis facilis dolor. Voluptatibus, quod molestiae nesciunt cum dolor soluta, maiores laboriosam officiis dolorum error reprehenderit recusandae nobis magnam nisi cupiditate doloribus obcaecati, minima facere.</p>
+        </div>
+    </aside>
+
+    <script>
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header")
+            header.classList.toggle("sticky", window.scrollY > 0)
+        })
+    </script>
+</body>
+</html>

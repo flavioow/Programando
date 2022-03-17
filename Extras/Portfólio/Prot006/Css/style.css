@@ -1,0 +1,190 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --font: 'Poppins', Arial, Helvetica, Sans-Serif, Serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', Arial, Helvetica, Sans-Serif, Serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fff;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 5px 25px #0000000d;
+    z-index: 1000;
+}
+
+.logo {
+    height: 60px;
+    line-height: 60px;
+    color: #12334e;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+    cursor: pointer;/*
+    display: flex;
+    justify-content: center;
+    align-items: center;*/
+    padding-left: 20px; 
+}
+
+#toggle {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 60px;
+    height: 60px;
+    background-color: #9051ff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+}
+
+#toggle::before {
+    content: '';
+    position: absolute;
+    width: 28px;
+    height: 4px;
+    background-color: #fff;
+    transform: translateY(-5px);
+    transition: .2s;
+    border-radius: 20px;
+}
+
+#toggle::after {
+    content: '';
+    position: absolute;
+    width: 28px;
+    height: 4px;
+    background-color: #fff;
+    transform: translateY(5px);
+    transition: .2s;
+    border-radius: 20px;
+}
+
+#toggle.active {
+    background-color: #f7226a;
+}
+
+#toggle.active::before {
+    transform: translateY(0px) rotate(45deg);
+}
+
+#toggle.active::after {
+    transform: translateY(0px) rotate(-45deg);
+}
+
+#navbar {
+    position: relative;
+    height: 60px;
+    right: 60px;
+    background-color: #fff;
+    transition: .5s;
+    width: 0px;
+    overflow: hidden;
+}
+
+#navbar.active {
+    width: 670px;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar ul {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    color: #12334e;
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0px 15px;
+    letter-spacing: 2px;
+    transition: .3s;
+}
+
+#navbar ul li a:hover {
+    color: #fff;
+    background-color: #9051ff;
+    transition: .3s;
+}
+
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #f5f5f5;
+    cursor: default;
+}
+
+@media (max-width: 900px){
+    #navbar {
+        position: fixed;
+        bottom: -100%;
+        right: 0px;
+        width: 100%;
+        transition: .5s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #navbar.active{
+        height: calc(100vh - 60px);
+        bottom: 0px;
+        width: 100%;
+    }
+    #navbar ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+    }
+    #navbar li a {
+        border-radius: 20px;
+        margin: 2.5px 0px;
+    }
+}
+
+@media (max-width: 180px){
+    #toggle {
+    width: 35px;
+    height: 60px;
+    }
+    #toggle::before {
+    width: 18px;
+    height: 2px;
+    }
+    #toggle::after {
+    width: 18px;
+    height: 2px;
+    }
+}

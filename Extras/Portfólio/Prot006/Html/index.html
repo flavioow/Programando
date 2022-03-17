@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Responsivo</title>
+    <link rel="stylesheet" href="../Css/style.css">
+    <script src="../Js/app.js"></script>
+</head>
+<body>
+    <header id="header">
+        <a href="index.html" class="logo">Sou Flávio</a>
+        <div id="toggle"></div>
+        <div id="navbar">
+            <ul>
+                <li><a href="#casa">Casa</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#time">Time</a></li>
+                <li><a href="#portifolio">Portifólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="casa">
+
+    </section>
+    
+    <section id="sobre">
+
+    </section>
+    
+    <section id="servicos">
+
+    </section>
+    
+    <section id="time">
+
+    </section>
+    
+    <section id="portifolio">
+
+    </section>
+    
+    <section id="contato">
+
+    </section>
+
+    <script>
+        const header = document.querySelector('#header')
+        const toggle = document.querySelector('#toggle')
+        const navbar = document.querySelector('#navbar')
+
+        document.onclick = function(e){
+            if(e.target.id !== 'header' && e.target.id !== 'toggle' && e.target.id !== 'navbar') {
+                toggle.classList.remove('active')
+                navbar.classList.remove('active')
+            }
+        }
+
+        toggle.onclick = function() {
+            toggle.classList.toggle('active')
+            navbar.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>

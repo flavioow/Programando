@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --cor1: #61358C;
+    --cor2: #7472A6;
+    --cor3: #72A6A6;
+    --cor4: #73D9A9;
+
+    --cursivo: "Caveat", Arial, Helvetica, Verdana, Sans-Serif;
+    --padrão: "Jost", Arial, Helvetica, Verdana, Sans-Serif;
+    --semicursivo: "MuseoModerno", Arial, Helvetica, Verdana, Sans-Serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--padrão);
+}
+.foto-perfil {
+    height: 100px;
+    width: auto;
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.corPrimaria {
+    background-color: var(--cor1);
+    color: white;
+}
+
+.corSecundaria {
+    background-color: var(--cor2);
+    color: white;
+}
+
+.icones {
+    padding: 0px 4px;
+}
+
+.titulosBrancos {
+    color: white;
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.titulosVerde {
+    color: var(--cor4);
+    text-decoration: underline;
+    text-underline-position: below;
+    padding-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.espacamento {
+    padding: 48px 48px 12px 48px;
+}
+
+.espacamento2 {
+    padding: 0px 12px 12px 12px;
+}
+
+.espacamento3 {
+    padding: 12px 0px;
+}
+
+.borderRadius {
+    border-radius: 0px 0px 8px 8px;
+}
+
+.letraBranca {
+    color: white;
+}
+
+.navbar-light, .navbar-brand, .navbar-light, .navbar-expand-lg, .navbar, .corBranca {
+    color: white;
+}
+
+.linka {
+    text-decoration: none;
+    padding-left: 16px;
+}
+
+.linka:hover {
+    color: var(--cor3);
+    text-decoration: none;
+}
+
+.botaodemerda {
+    background: var(--cor3);
+}
+
+footer {
+    margin: 48px 0px 0px 0px;
+    padding: 24px 0px 0px 0px;
+}
+
+#aff {
+    margin: 0px;
+    padding: 0px 0px 20px 0px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-btr>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        div#area1 {
+            font: normal 10pt Arial;
+            background: blueviolet;
+            color: white;
+            width: 1285px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="area1">
+        Olá ksksks
+    </div>
+
+    <script>
+        var a1 = window.document.getElementById("area1")
+        a1.addEventListener("click", clicar1) // Use isto para substituir os comandos na div
+        a1.addEventListener("mouseenter", entrar1) // Use isto para substituir os comandos na div
+        a1.addEventListener("mouseout", sair1) // Use isto para substituir os comandos na div
+
+        function clicar1() {
+            a1.innerText = "Nossa! realmente me notou! :)"
+            a1.style.color = "white"
+            a1.style.background = "purple"
+            a1.style.width = "1285px"
+            a1.style.height = "50px"
+            a1.style.lineHeight = "50px"
+            a1.style.textAlign = "center"
+
+        }
+        function entrar1() {
+            a1.innerText = "Hmm, me notou?"
+            a1.style.background = "blueviolet"
+            a1.style.color = "white"
+            a1.style.width = "1285px"
+            a1.style.height = "50px"
+            a1.style.lineHeight = "50px"
+            a1.style.textAlign = "center"
+        }
+        function sair1() {
+            a1.innerText = "Olá ksksks"
+            a1.style.background = "blueviolet"
+            a1.style.color = "white"
+            a1.style.width = "1285px"
+            a1.style.height = "50px"
+            a1.style.lineHeight = "50px"
+            a1.style.textAlign = "center"
+        }
+    </script>
+</body>
+</html>
