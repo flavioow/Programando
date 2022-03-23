@@ -355,7 +355,8 @@ header p {
 
 #extras .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     padding: 10px;
 }
