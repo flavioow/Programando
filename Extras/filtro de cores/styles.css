@@ -1,0 +1,45 @@
+/* Estilização base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: sticky; /* Muda para sticky */
+    top: 0;
+    padding: 10px;
+    z-index: 1000;
+    background-color: transparent; /* Remove fundo */
+}
+
+.logo {
+    height: 50px;
+    transition: filter 0.3s ease-in-out; /* Suaviza a mudança de cor */
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.white-section {
+    background-color: white;
+}
+
+.black-section {
+    background-color: black;
+    color: white;
+}
+
+/* Regra para inverter o logo nas seções pretas usando nth-child */
+header.logo-white ~ section:nth-child(odd) header .logo {
+    filter: invert(1) brightness(1000%);
+}
+
+header.logo-black ~ section:nth-child(even) header .logo {
+    filter: none;
+}
